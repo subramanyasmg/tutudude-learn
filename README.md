@@ -10,5 +10,5 @@ This file takes first and last name inputs, and prints those with welcome messag
 ## even_odd.py
 This file takes an input and prints the input is even or odd. 
 
-##range_sum.py
+## range_sum.py
 This file takes an input and sums it from 1 to input number. 
