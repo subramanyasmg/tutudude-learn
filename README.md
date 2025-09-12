@@ -18,3 +18,9 @@ This file takes an input and returns the factorial.
 
 ## math_module.py
 This file takes an input and prints square root, logarithm and sine of the input number.
+
+## file_operations.py
+File read and exceptions assignment
+
+## read_write.py
+write and append to the file
