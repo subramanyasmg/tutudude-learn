@@ -1,0 +1,2 @@
+hello, python
+welcome to the python tutorial
