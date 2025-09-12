@@ -12,3 +12,9 @@ This file takes an input and prints the input is even or odd.
 
 ## range_sum.py
 This file takes an input and sums it from 1 to input number. 
+
+## factroial.py
+This file takes an input and returns the factorial.
+
+## math_module.py
+This file takes an input and prints square root, logarithm and sine of the input number.
