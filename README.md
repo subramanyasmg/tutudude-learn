@@ -24,3 +24,9 @@ File read and exceptions assignment
 
 ## read_write.py
 write and append to the file
+
+## dictionary.py
+Dictionary assignments 
+
+## list.py
+List and list assignments
