@@ -30,3 +30,8 @@ Dictionary assignments
 
 ## list.py
 List and list assignments
+
+
+## Postgres database with Python
+A Postgres folder contains the assignment related code.
+A pdf in the same folder explains all the working examples for the module. 
