@@ -1,0 +1,21 @@
+{% extends 'accounts/base.html' %}
+
+{% block title %}Home - Django Auth{% endblock %}
+
+{% block content %}
+<div class="row justify-content-center">
+    <div class="col-md-8">
+        <div class="jumbotron">
+            <h1 class="display-4">Welcome to Django Auth System</h1>
+            <p class="lead">This is a complete authentication system with login and registration.</p>
+            {% if not user.is_authenticated %}
+                <a class="btn btn-primary btn-lg" href="{% url 'signup' %}" role="button">Get Started</a>
+                <a class="btn btn-secondary btn-lg" href="{% url 'login' %}" role="button">Login</a>
+            {% else %}
+                <p>Hello, {{ user.first_name|default:user.username }}!</p>
+                <a class="btn btn-primary btn-lg" href="{% url 'dashboard' %}" role="button">Go to Dashboard</a>
+            {% endif %}
+        </div>
+    </div>
+</div>
+{% endblock %}

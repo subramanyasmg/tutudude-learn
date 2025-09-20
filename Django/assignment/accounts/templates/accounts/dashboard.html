@@ -1,0 +1,22 @@
+{% extends 'accounts/base.html' %}
+
+{% block title %}Dashboard - Django Auth{% endblock %}
+
+{% block content %}
+<div class="row">
+    <div class="col-md-12">
+        <h2>Welcome to your Dashboard, {{ user.first_name|default:user.username }}!</h2>
+        <div class="card">
+            <div class="card-body">
+                <h5 class="card-title">Your Account Information</h5>
+                <p><strong>Username:</strong> {{ user.username }}</p>
+                <p><strong>Email:</strong> {{ user.email }}</p>
+                <p><strong>First Name:</strong> {{ user.first_name }}</p>
+                <p><strong>Last Name:</strong> {{ user.last_name }}</p>
+                <p><strong>Date Joined:</strong> {{ user.date_joined|date:"F d, Y" }}</p>
+                <p><strong>Last Login:</strong> {{ user.last_login|date:"F d, Y H:i" }}</p>
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock %}
